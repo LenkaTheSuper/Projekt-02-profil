@@ -19,3 +19,98 @@ body {
   background-color: #bdc3c7;
 }
 
+.profil {
+  width: 20%;
+  background-color: #31363b;
+  color: #bdc3c7;
+  box-shadow: 0 3px 89x rgba(0, 0, 0, 0.5);
+}
+
+.hlavicka {
+  position: relative;
+}
+
+.foto {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  right: 25px;
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
+  background-color: #b92e81;
+  border-radius:50%;
+}
+
+.obsah {
+  margin: 20px;
+}
+
+.obsah h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.obsah {
+  font-family: "Source Sans Pro", serif;
+}
+
+.odkazy {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.odkazy li {
+  float: left;
+}
+
+.portfolio {
+  width: 100%;
+  border-top: 1px solid #3f464d;
+  border-bottom: 1px solid #3f464d;
+}
+
+.facebook {
+  width: 50%;
+  border-right: 1px solid #3f464d;
+}
+
+.twitter {
+  width: 50%;
+}
+
+.odkazy a {
+  display: block;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+.odkazy a:hover {
+  color: #fff;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+}
